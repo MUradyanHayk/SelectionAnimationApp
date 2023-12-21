@@ -2,7 +2,7 @@ package com.example.selectionanimationapp_2024.manager
 
 import com.example.selectionanimationapp_2024.model.MessageModel
 
-class ConversationManager {
+object ConversationManager {
 
     fun getDataSource(): List<MessageModel> {
         val list = mutableListOf<MessageModel>()
@@ -51,6 +51,18 @@ class ConversationManager {
         list.add(model)
 
         model = MessageModel("askj askj", true)
+        list.add(model)
+
+        model = MessageModel("askj askj", true)
+        list.add(model)
+
+        model = MessageModel("af", true)
+        list.add(model)
+
+        model = MessageModel("asfas qaefj", false)
+        list.add(model)
+
+        model = MessageModel("askjqwwe", true)
         list.add(model)
 
         return list
