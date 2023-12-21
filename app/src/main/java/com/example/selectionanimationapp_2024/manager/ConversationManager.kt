@@ -65,6 +65,33 @@ object ConversationManager {
         model = MessageModel("askjqwwe", true)
         list.add(model)
 
+        model = MessageModel("wdfe  ef", true)
+        list.add(model)
+
+        model = MessageModel("45 445  ert", true)
+        list.add(model)
+
+        model = MessageModel("er g eg", true)
+        list.add(model)
+
+        model = MessageModel("erg e  521", true)
+        list.add(model)
+
+        model = MessageModel("23t 35 345", true)
+        list.add(model)
+
+        model = MessageModel("qer 3r e", false)
+        list.add(model)
+
+        model = MessageModel("eqrg eer", true)
+        list.add(model)
+
+        model = MessageModel("qer qgr", true)
+        list.add(model)
+
+        model = MessageModel("qerg gh", true)
+        list.add(model)
+
         return list
     }
 }
