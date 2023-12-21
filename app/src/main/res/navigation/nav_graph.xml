@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/conversationFragment">
+
+    <fragment
+        android:id="@+id/conversationFragment"
+        android:name="com.example.selectionanimationapp_2024.fragment.ConversationFragment"
+        android:label="fragment_conversation"
+        tools:layout="@layout/fragment_conversation" />
+</navigation>
