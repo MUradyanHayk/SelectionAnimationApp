@@ -37,7 +37,7 @@ class ConversationItemView @JvmOverloads constructor(
         textView?.layoutParams = params
         textViewLayoutParams = params
 
-        textView?.setBackgroundColor(ContextCompat.getColor(context, R.color.white))
+        textView?.setBackground(ContextCompat.getDrawable(context, R.drawable.message_bg))
         addView(textView)
     }
 
