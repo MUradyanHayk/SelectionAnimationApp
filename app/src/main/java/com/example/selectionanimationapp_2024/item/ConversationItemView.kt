@@ -23,7 +23,7 @@ class ConversationItemView @JvmOverloads constructor(
         val params = LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT)
         layoutParams = params
         createTextView()
-
+        setBackgroundColor(ContextCompat.getColor(context, R.color.transparent))
     }
 
     private fun createTextView() {
@@ -49,6 +49,13 @@ class ConversationItemView @JvmOverloads constructor(
             textViewLayoutParams?.gravity = Gravity.END
             textView?.gravity = Gravity.END
         }
+
+        if (model.isSelected) {
+            setBackgroundColor(ContextCompat.getColor(context, R.color.message_selected_item_bg_color))
+        } else {
+            setBackgroundColor(ContextCompat.getColor(context, R.color.transparent))
+        }
+
         textView?.text = model.message
     }
 }
